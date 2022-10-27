@@ -1,0 +1,39 @@
+body{
+  background-color: grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  color: white;
+}
+
+
+
+textarea{
+  outline: darkgray;
+}
+textarea::placeholder{
+  color: aliceblue;
+}
+button{
+  width: 200px;
+  background-color: darkgrey;
+  border: none;
+  height: 40px;
+  text-shadow: 3px 3px grey;
+  font-size: 19px;
+  font-weight: 700;
+  font-synthesis: style;
+  outline: darkgrey;
+}
+select{
+  background-color: inherit;
+  border: none;
+}
+label{
+  font-size: 20px;
+  font-weight: 900;
+  color: white;
+  text-shadow:  3px 3px lightslategrey;
+}
